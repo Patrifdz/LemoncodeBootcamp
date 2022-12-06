@@ -1,0 +1,55 @@
+*{
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.title {
+    font-size: 40px;
+    font: bold;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.containerHotels {
+    min-width: 1000px;
+    height: 85px;
+    padding: 30px;
+    border: 2px solid #4a4a4a;
+    border-radius: 8px;
+    box-shadow: 5px 5px 25px #3b3b3bcd;
+    margin: 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.containerHotels > h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.description {
+    width: 350px;
+    min-width: 300px;
+    min-height: 50px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.descriptionHotel2,
+.descriptionHotel3,
+.descriptionHotel4 {
+    display: inline-block;
+    margin-left: 55px;
+}
+.starsASCII{
+    font-size: 27px;
+    letter-spacing: 5px;
+}
+
